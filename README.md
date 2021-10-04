@@ -1,7 +1,7 @@
 # terraform-aws-tvlk-bastion
 
 
-[![Terraform Version](https://img.shields.io/badge/Terraform%20Version->=0.12.0,<=0.12.31-blue.svg)](https://releases.hashicorp.com/terraform/)
+[![Terraform Version](https://img.shields.io/badge/Terraform%20Version->=0.13.0,<=0.13.7-blue.svg)](https://releases.hashicorp.com/terraform/)
 [![Release](https://img.shields.io/github/release/traveloka/terraform-aws-tvlk-bastion.svg)](https://github.com/traveloka/terraform-aws-tvlk-bastion/releases)
 [![Last Commit](https://img.shields.io/github/last-commit/traveloka/terraform-aws-tvlk-bastion.svg)](https://github.com/traveloka/terraform-aws-tvlk-bastion/commits/master)
 [![Issues](https://img.shields.io/github/issues/traveloka/terraform-aws-tvlk-bastion.svg)](https://github.com/traveloka/terraform-aws-tvlk-bastion/issues)
@@ -52,12 +52,14 @@ This Terraform module uses another Terraform module, here is the list of Terrafo
 ## Terraform Versions
 
 This module was created on 16/10/2018.
-The latest stable version of Terraform which this module tested working is Terraform 0.12.31 on 29/09/2021.
+The latest stable version of Terraform which this module tested working is Terraform 0.13.7 on 29/09/2021.
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13 |
 
 ## Providers
 
@@ -69,8 +71,8 @@ No requirements.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_aws-autoscaling_bastion_asg"></a> [aws-autoscaling\_bastion\_asg](#module\_aws-autoscaling\_bastion\_asg) | github.com/traveloka/terraform-aws-autoscaling | v0.3.4 |
-| <a name="module_bastion"></a> [bastion](#module\_bastion) | github.com/traveloka/terraform-aws-iam-role.git//modules/instance | v2.0.2 |
+| <a name="module_aws-autoscaling_bastion_asg"></a> [aws-autoscaling\_bastion\_asg](#module\_aws-autoscaling\_bastion\_asg) | github.com/traveloka/terraform-aws-autoscaling | v0.4.0 |
+| <a name="module_bastion"></a> [bastion](#module\_bastion) | github.com/traveloka/terraform-aws-iam-role.git//modules/instance | v3.0.0 |
 
 ## Resources
 
